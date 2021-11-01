@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.1rem;
+  }
+  .head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(97, 233, 233);
+    background-color: rgb(247, 181, 60);
+  }
+  .logo {
+    width: 50px;
+    height: 45px;
+    margin-right: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  .lab{
+      display: flex;
+      justify-content: center;
+  }
+  .title{
+    margin: 1rem;
+  }
+  .ques, .ans{
+      margin: 1rem;
+      /* margin-left: 4rem; */
+      padding: 0 3rem;
+  }
+  .ans{
+      margin-top: 1rem;
+  }
+  .one h1{
+      color: rgb(247, 181, 60);
+      font-size: 1.5rem;
+  }
+
+  .one{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    align-items: center;
+    justify-content:center;
+  }
+
+  .steps_cont{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 30rem;
+  }
+
+  .explain{
+    margin-top: 1rem;
+    width: 40rem;
+  }
+  .step_head{
+    color: orange;
+    font-size: 1.4rem;
+  }
+  pre{
+    color: darkcyan;
+  }
+
+  .eg_start{
+    margin-top: 1rem;
+  }
+  .eg{
+    margin-top: 0.7rem;
+  }
+  .footer{
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(250, 205, 121);
+    text-align:center;
+    
+  }
+  .foot{
+    padding: 2rem;
+  }
+
+  @media only screen and (max-width: 489px) {
+    .steps_cont{
+      width: 10rem;
+
+    }
+  }
